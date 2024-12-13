@@ -1,0 +1,90 @@
+:host {
+    display: block;
+    padding: 2rem;
+    background-color: #e8f4fc; /* Soft light blue background */
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #0277bd; /* Deep blue */
+  }
+  
+  .form-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #b3e5fc; /* Light blue border */
+    border-radius: 4px;
+    background: #f1faff; /* Very light blue */
+  }
+  
+  h3 {
+    margin: 0 0 1rem;
+    font-size: 1.2rem;
+    color: #039be5; /* Medium blue */
+  }
+  
+  mat-form-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .geo-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  button[mat-stroked-button] {
+    color: #039be5; /* Medium blue */
+    border-color: #039be5;
+  }
+  
+  button[mat-stroked-button]:hover {
+    background: #e1f5fe; /* Soft light blue hover */
+  }
+  
+  button[mat-raised-button] {
+    background-color: #039be5; /* Medium blue */
+    color: #ffffff;
+  }
+  
+  button[mat-raised-button]:hover {
+    background-color: #0277bd; /* Deep blue */
+  }
+  
+  mat-spinner {
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    :host {
+      padding: 1rem;
+    }
+  
+    .form-container {
+      padding: 1rem;
+    }
+  
+    .geo-fields {
+      grid-template-columns: 1fr;
+    }
+  }
